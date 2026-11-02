@@ -1,0 +1,20 @@
+{
+  // 1. Oculta carpetas de configuración y Git del explorador
+  "files.exclude": {
+    "**/.devcontainer": true,
+    "**/.vscode": true,
+    "**/.git": true
+  },
+
+  // 2. Desactiva la IA nativa y el chat en la ventana
+  "chat.disableAIFeatures": true,
+
+  // 3. Silencia recomendaciones de extensiones
+  "extensions.ignoreRecommendations": true,
+
+  // 4. Oculta el control de layout superior para evitar reordenar vistas
+  "workbench.layoutControl.enabled": false,
+
+  // 5. OCULTA EL BOTÓN DE EXTENSIONES EN LA BARRA LATERAL (Activity Bar)
+  "workbench.activityBar.location": "off"
+}

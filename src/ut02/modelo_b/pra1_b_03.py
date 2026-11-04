@@ -7,3 +7,4 @@ procesos = []
 
 # TODO: construir y lanzar todos los Popen antes de recoger resultados.
 # TODO: recopilar stdout, stderr y returncode; continuar aunque uno falle.
+

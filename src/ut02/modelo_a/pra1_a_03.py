@@ -7,3 +7,12 @@ procesos = []
 
 # TODO: construir y lanzar todos los Popen antes de recoger resultados.
 # TODO: recopilar stdout, stderr y returncode; continuar aunque uno falle.
+
+for id,valor,fallo in tareas:
+    args=["python",
+          "--id",id,
+          "--valor",str(valor),
+          "--retardo-ms","200"]
+    if falla:
+        args.append("--fallo")
+##ya no se mas
